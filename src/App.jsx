@@ -3,14 +3,11 @@ import React from 'react'
 // import { createBrowserHistory } from 'history'
 
 import Nav from './components/nav/Nav'
-import Header from './components/header/Header'
 
 const App = () => {
   return (
     <>
         <Nav />
-        <p>Hello World</p>
-        <Header />
     </>
   )
 }
