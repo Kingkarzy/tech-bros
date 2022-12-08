@@ -3,7 +3,10 @@
     box-shadow:0 1rem 2rem rgba(0, 0, 0, 0.2);
     transition: var(--transition);
 }
-
+.container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
 .nav__container{
     height: 100%;
     display: flex;

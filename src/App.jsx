@@ -7,7 +7,9 @@ import Nav from './components/nav/Nav'
 const App = () => {
   return (
     <>
+      <React.StrictMode>
         <Nav />
+      </React.StrictMode>
     </>
   )
 }
