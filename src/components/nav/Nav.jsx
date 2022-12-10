@@ -36,7 +36,6 @@ const Nav = () => {
                         isNavShowing ? <IoMdClose/> : <BiMenu/>
                     }
                 </button>
-                {/* <button ><IoMdClose/></button> */}
         </div>
     </nav>
   )

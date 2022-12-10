@@ -1,7 +1,10 @@
 import React from 'react'
-import {FaQuestion} from 'react-icons/fa'
+import { useState } from 'react'
+
+// import {FaQuestion} from 'react-icons/fa'
 import {faqs} from '../data'
 import FAQ from './FAQ'
+import '../pages/home/home.css'
 
 const FAQs = () => {
   return (
@@ -12,7 +15,7 @@ const FAQs = () => {
 
             <div className="faqs__wrapper">
                 {
-                    faqs.map(({id, question, answer}) =>{
+                    faqs.map(({id, question, answer}) => {
                         return <FAQ key={id} question={question} answer={answer}/>
                     })
                 }
