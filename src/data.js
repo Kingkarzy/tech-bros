@@ -1,4 +1,6 @@
-import {BiCodeAlt} from 'react-icons/bi'
+import {HiCode} from 'react-icons/hi'
+import {HiPencil} from 'react-icons/hi'
+import {MdDesignServices} from 'react-icons/md'
 
 import AVATAR1 from './assets/avatar1.jpg'
 import AVATAR2 from './assets/avatar2.jpg'
@@ -60,7 +62,7 @@ export const testimonials =[
       name: "Sairtek",
       review: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore consectetur pariatur esse, quae nulla itaque fuga dicta quasi doloremque aliquid."
     },
-  ]
+]
   
 export const projects = [
     {
@@ -106,5 +108,58 @@ export const projects = [
       github: 'https://github.com',
       demo: 'https://dribbble.com'
     },
-  ]
+]
   
+export const services = [
+  {
+    id: 1,
+    icon: <HiCode />,
+    title: "Web Development",
+    info: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, non",
+  },
+  {
+    id: 2,
+    icon: <HiPencil />,
+    title: "Content Creation",
+    info: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, non",
+  },
+  {
+    id: 3,
+    icon: <MdDesignServices />,
+    title: "UI/UX Design",
+    info: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, non",
+  },
+]
+
+export const faqs = [
+  {
+    id: 1,
+    question: "Lorem ipsum dolor sit amet consectetur?",
+    answer: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quibusdam beatae recusandae tenetur, consectetur debitis libero vel doloremque veritatis ipsam, et unde? Omnis alias fuga modi iste sunt expedita vero."
+  },
+  {
+    id: 2,
+    question: "Lorem ipsum dolor sit amet consectetur?",
+    answer: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quibusdam beatae recusandae tenetur, consectetur debitis libero vel doloremque veritatis ipsam, et unde? Omnis alias fuga modi iste sunt expedita vero."
+  },
+  {
+    id: 3,
+    question: "Lorem ipsum dolor sit amet consectetur?",
+    answer: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quibusdam beatae recusandae tenetur, consectetur debitis libero vel doloremque veritatis ipsam, et unde? Omnis alias fuga modi iste sunt expedita vero."
+  },
+  {
+    id: 4,
+    question: "Lorem ipsum dolor sit amet consectetur?",
+    answer: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quibusdam beatae recusandae tenetur, consectetur debitis libero vel doloremque veritatis ipsam, et unde? Omnis alias fuga modi iste sunt expedita vero."
+  },
+  {
+    id: 5,
+    question: "Lorem ipsum dolor sit amet consectetur?",
+    answer: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quibusdam beatae recusandae tenetur, consectetur debitis libero vel doloremque veritatis ipsam, et unde? Omnis alias fuga modi iste sunt expedita vero."
+  },
+  {
+    id: 6,
+    question: "Lorem ipsum dolor sit amet consectetur?",
+    answer: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quibusdam beatae recusandae tenetur, consectetur debitis libero vel doloremque veritatis ipsam, et unde? Omnis alias fuga modi iste sunt expedita vero."
+  },
+]

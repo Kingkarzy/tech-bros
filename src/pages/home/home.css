@@ -52,7 +52,18 @@
 
 
 /**=========== SERVICES ==========**/
-.services__container {
+.services {
+    margin-top: 4rem;
+}
+
+.services__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+/* .services__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
@@ -103,7 +114,7 @@
 .service__list p {
     font-size: 0.9rem;
 }
-
+ */
 
 /**=========== EXPERIENCES ==========**/
 .experience__container{

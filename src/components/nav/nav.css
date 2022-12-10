@@ -8,6 +8,7 @@ nav {
     height: 5rem;
     width: 100vw;
     background: var(--color-gray-600);
+    box-shadow:0 1rem 2rem rgba(0, 0, 0, 0.3);
     display: grid;
     place-items: center;
     position: fixed;
