@@ -1,58 +1,7 @@
 import React from 'react'
 import './projects.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
 import {AiOutlineGithub} from 'react-icons/ai'
-
-const data = [
-  {
-    id: 1,
-    image: IMG1,
-    title: 'Crypto Dashboard',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com'
-  },
-  {
-    id: 2,
-    image: IMG2,
-    title: 'Charts & Infographics',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com'
-  },
-  {
-    id: 3,
-    image: IMG3,
-    title: 'Clothing App UI',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com'
-  },
-
-  {
-    id: 4,
-    image: IMG4,
-    title: 'Ecommerce Website',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com'
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'Data Analysis',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com'
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'Charts in Figma',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com'
-  },
-]
+import {projects} from '../../data'
 
 const Portfolio = () => {
   return (
@@ -62,7 +11,7 @@ const Portfolio = () => {
 
       <div className='container portfolio__container'>
         {
-          data.map(({id, image, title, github, demo}) => {
+          projects.map(({id, image, title, github, demo}) => {
             return(
               <article key={id} className='portfolio__item'>
                 <div className="portfolio__item-image">

@@ -2,6 +2,8 @@ import React from 'react'
 import './../pages/home/home.css'
 import {BiCheck} from 'react-icons/bi'
 
+
+
 const Services = () => {
   return (
     <section id="services">
