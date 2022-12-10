@@ -186,6 +186,82 @@ img{
     font-weight: 300;
 }
 
+footer{
+    background: var(--color-bg1);
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+    font-size: 0.7rem;
+    color: var(--color-gray-100);
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: 50rem 1fr;
+    gap: 5rem;
+}
+
+.footer {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.7rem;
+}
+
+.footer__logo{
+    place-items: center;
+}
+
+.footer__container > div h4 {
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+}
+
+.footer__1 p{
+    margin: 0 0 2rem; 
+}
+
+footer ul li {
+    margin-bottom: 0.7rem;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer__socials{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    align-items: center;
+}
+
+.footer__copyright{
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1.2rem 0;
+    border-top: 1px solid var(--color-bg2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--color-primary-variant);
+    background: transparent;
+    resize: none;
+    color: var(--color-white);
+}
+input.submit {
+    cursor: pointer;
+}
 
 /* SVG */
 #myWidget{
@@ -330,7 +406,7 @@ svg:hover #dark1{
     }
 
     h2 {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
 
     h3{
@@ -341,6 +417,9 @@ svg:hover #dark1{
         font-size: 1.2rem;
     }
 
+    .footer__container{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 /* ============= MEDIA QUERIES (PHONES) ============== */
@@ -348,62 +427,7 @@ svg:hover #dark1{
     .container{
         width: var(--conatiner-width-sm)
     }
-}
 
-footer{
-    background: var(--color-bg1);
-    padding-top: 5rem;
-    font-size: 0.9rem;
-}
-
-.footer__container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 5rem;
-}
-
-.footer__container > div h4 {
-    margin-bottom: 1.2rem;
-}
-
-.footer__1 p{
-    margin: 0 0 2rem; 
-}
-
-footer ul li {
-    margin-bottom: 0.7rem;
-}
-
-footer ul li a:hover{
-    text-decoration: underline;
-}
-
-.footer__socials{
-    display: flex;
-    gap: 1rem;
-    font-size: 1.2rem;
-    margin-top: 2rem;
-}
-
-.footer__copyright{
-    text-align: center;
-    margin-top: 4rem;
-    padding: 1.2rem 0;
-    border-top: 1px solid var(--color-bg2);
-}
-
-
-
-/* ============= MEDIA QUERIES (TABLETS) ============== */
-@media screen and (max-width:1024px) {
-    .footer__container{
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-
-/* ============= MEDIA QUERIES (PHONES) ============== */
-@media screen and (max-width: 600px) {
     .footer__container{
         grid-template-columns: 1fr;
         text-align: center;

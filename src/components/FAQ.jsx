@@ -17,7 +17,7 @@ const FAQ = ({question, answer}) => {
                 }
             </button>
         </div>
-        <p className={`${isFAQShowing ? 'show__faq': 'hide__faq'}`}>{answer}</p>
+        {isFAQShowing && <p>{answer}</p>}
     </article>
   )
 }

@@ -180,6 +180,9 @@
     justify-content: space-between;
     align-items: center;
 }
+.faq div h4 {
+    font-size: 1rem;
+}
 
 .faq__icon {
     background: transparent;
@@ -190,6 +193,7 @@
 
 .faq p{
     margin-top: 1.5rem;
+    font-size: 0.7rem;
 }
 
 .show__faq {
@@ -208,13 +212,18 @@
     padding-bottom: 4rem;
 }
 
+.testimonials {
+    border-radius: 2rem;
+    background: var(--color-gray-100);
+}
+
 .client__avatar{
     width: 4rem;
     aspect-ratio: 1/1;
     overflow: hidden;
     border-radius: 50%;
     margin: 0 auto 1rem;
-    border: 0.4rem solid var(--color-primary-variant);
+    border: 0.4rem solid var(--color-primary);
 }
 
 .testimonial {
@@ -233,6 +242,8 @@
     margin: 0.8rem auto 0;
 }
 
+
+
 .swiper-pagination-bullet-clickable .swiper-pagination-bullet{
     background: var(--color-primary);
 }
@@ -240,10 +251,22 @@
 /* =========== MEDIA QUERIES (TABLET) ========== */
 @media screen and (max-width: 1024px) {
     
-    
-    
+    /**=========== HEADER ==========**/
+    .main__header{
+        height: fit-content;
+        padding: 2rem 0;
+    }
+    .main__header-container{
+        gap: o;
+    }
+    .header__SVG {
+        width: 16rem;
+        height: 16rem;
+    }
+
+
     /**=========== SERVICES ==========**/
-    .services__container{
+    .services__wrapper{
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
     }
@@ -278,9 +301,9 @@
     
     
     /**=========== SERVICES ==========**/
-    .services__container{
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
+    .services__wrapper{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
     }
 
     /**=========== EXPERIENCES ==========**/

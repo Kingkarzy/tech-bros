@@ -13,7 +13,7 @@ const Header = () => {
           <h4>Hey! We are TECH BROS</h4>
           <h1>Build Your Website With Us</h1>
           <p>We specialize in creating fully functional wesites for individuals and small businesses.</p>
-          <Link to="/contact" className='btn lg'>Let's Talk</Link>
+          <Link to="/contact" className='btn btn-sm'>Let's Talk</Link>
         </div>
         
         <div className="main__header-right">
