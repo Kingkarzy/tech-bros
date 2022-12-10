@@ -17,7 +17,7 @@ const Portfolio = () => {
                 <div className="portfolio__item-image">
                   <img src={image} alt={title} />
                 </div>
-                <h3>{title}</h3>
+                <h4>{title}</h4>
                 <div className='portfolio__item-cta'>
                   <a href={github} target="_blank" rel="noopener noreferrer" className='btn'><AiOutlineGithub/> Github</a>
                   <a href={demo} target="_blank" rel="noopener noreferrer" className='btn btn-primary'>Live Demo</a>
