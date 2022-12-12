@@ -9,7 +9,7 @@ const FAQs = () => {
     <section className='faqs'>
         <div className="container faqs__container">
             <h5>Common Questions From Clients</h5>
-            <h2>FAQs <FaQuestion/></h2>
+            <h2>FAQs</h2>
 
             <div className="faqs__wrapper">
                 {
