@@ -2,7 +2,7 @@ import React from 'react'
 import './../pages/home/home.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
 
-const Categories = () => {
+const Experiences = () => {
   return (
 
 <section id="experience">
@@ -109,32 +109,4 @@ const Categories = () => {
   )
 }
 
-export default Categories
-
-{/* <div className="categories__left">
-                <h1>Categories</h1>
-                <p></p>
-                <a href="/projects" className="btn">Learn More</a>
-            </div>
-
-            <div className="categories__right">
-                <article className="category">
-                    <h4>All Projects</h4>
-                    <p>Fully Functional Website</p>
-                </article>
-
-                <article className="category">
-                    <h4>Web Development/Design</h4>
-                    <p>Fully Functional Website</p>
-                </article>
-
-                <article className="category">
-                    <h4>UI/UX Design</h4>
-                    <p>Fully Functional Website</p>
-                </article>
-
-                <article className="category">
-                    <h4>Branding</h4>
-                    <p></p>
-                </article>
-            </div> */}
+export default Experiences

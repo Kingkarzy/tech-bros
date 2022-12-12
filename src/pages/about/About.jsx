@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
-import {MdEmail} from 'react-icons/md'
+//import {MdEmail} from 'react-icons/md'
 import {BsHeartFill} from 'react-icons/bs'
 
 import './about.css'

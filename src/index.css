@@ -397,6 +397,10 @@ svg:hover #dark1{
 
 /* ============= MEDIA QUERIES (TABLETS) ============== */
 @media screen and (max-width:1024px) {
+    svg {
+        width: var(--conatiner-width-md);
+    }
+    
     .container{
         width: var(--container-width-md);
     }
@@ -424,6 +428,10 @@ svg:hover #dark1{
 
 /* ============= MEDIA QUERIES (PHONES) ============== */
 @media screen and (max-width: 600px) {
+    svg {
+        width: var(--conatiner-width-md);
+    }
+    
     .container{
         width: var(--conatiner-width-sm)
     }

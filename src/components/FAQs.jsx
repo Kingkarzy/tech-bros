@@ -1,7 +1,5 @@
 import React from 'react'
-import { useState } from 'react'
-
-// import {FaQuestion} from 'react-icons/fa'
+import {FaQuestion} from 'react-icons/fa'
 import {faqs} from '../data'
 import FAQ from './FAQ'
 import '../pages/home/home.css'
@@ -11,7 +9,7 @@ const FAQs = () => {
     <section className='faqs'>
         <div className="container faqs__container">
             <h5>Common Questions From Clients</h5>
-            <h2>FAQs</h2>
+            <h2>FAQs <FaQuestion/></h2>
 
             <div className="faqs__wrapper">
                 {
