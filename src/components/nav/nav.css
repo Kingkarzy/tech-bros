@@ -1,5 +1,5 @@
 .window-scroll {
-    background: var(--color-primary);
+    background: var(--color-bg);
     box-shadow:0 1rem 2rem rgba(0, 0, 0, 0.2);
     transition: var(--transition);
 }
@@ -8,7 +8,7 @@ nav {
     height: 5rem;
     width: 100vw;
     background: var(--color-gray-600);
-    box-shadow:0 1rem 2rem rgba(0, 0, 0, 0.3);
+    /* box-shadow:0 1rem 2rem rgba(0, 0, 0, 0.3); */
     display: grid;
     place-items: center;
     position: fixed;
@@ -47,6 +47,7 @@ nav {
 
 .nav__links a:hover{
     color: var(--color-secondary);
+    font-size: 1.1rem;
 }
 
 .active-nav {

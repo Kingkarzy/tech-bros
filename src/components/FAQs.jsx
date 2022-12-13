@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaQuestion} from 'react-icons/fa'
+//import {FaQuestion} from 'react-icons/fa'
 import {faqs} from '../data'
 import FAQ from './FAQ'
 import '../pages/home/home.css'

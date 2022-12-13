@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
 *, *::before, *::after{
     margin:0;
     padding:0;
@@ -47,6 +49,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     line-height: 1.7;
     color: var(--color-gray-200);
     background: var(--color-gray-600);
@@ -317,17 +320,23 @@ input.submit {
     50%{
         transform: rotate(-50deg);
     }
-    70%{
+    100%{
         transform: rotate(-90deg);
     }
-    100%{
-        transform: rotateX(-150deg);
-       
-    }
+ 
 }
 
+#gear1, 
+#gear,   
 #reactBody{
     animation: spin 2s linear infinite;
+    /* transform-origin: 50% 50%; */
+    transform-box: fill-box;
+    transform-origin: center;
+    position: absolute;
+}
+#gear2{
+    animation: reverseSpin 2s linear infinite;
     /* transform-origin: 50% 50%; */
     transform-box: fill-box;
     transform-origin: center;
@@ -346,13 +355,39 @@ input.submit {
     } 
 }
 
+@keyframes reverseSpin{ 
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-180deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    } 
+}
+
+#roboEyes{
+    animation: blink 5s ease infinite;
+}
+
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+        width: var(--container-width-md);
+    }
+    100%{
+        opacity: 0.4;
+    }
+}
 
 .surround{
     animation: bounce 8s ease  forwards infinite;
     animation-delay: calc(var(--bouncer)*200ms);
 }
-
-
 
 @keyframes bounce{
     0%{
@@ -366,6 +401,8 @@ input.submit {
         transform: translateY(-4%);
     }
 }
+
+
 
 
 #darkGroup{
@@ -398,7 +435,7 @@ svg:hover #dark1{
 /* ============= MEDIA QUERIES (TABLETS) ============== */
 @media screen and (max-width:1024px) {
     svg {
-        width: var(--conatiner-width-md);
+        width: var(--conatiner-width-sm);
     }
     
     .container{
@@ -429,7 +466,8 @@ svg:hover #dark1{
 /* ============= MEDIA QUERIES (PHONES) ============== */
 @media screen and (max-width: 600px) {
     svg {
-        width: var(--conatiner-width-md);
+        width: var(--conatiner-width-sm);
+        margin-top: -5rem;
     }
     
     .container{
