@@ -42,7 +42,7 @@
 
     --container-width-lg: 80%;
     --container-width-md: 90%;
-    --conatiner-width-sm: 94%;
+    --container-width-sm: 94%;
 
     --transition: all 500ms ease;
 }
@@ -435,7 +435,7 @@ svg:hover #dark1{
 /* ============= MEDIA QUERIES (TABLETS) ============== */
 @media screen and (max-width:1024px) {
     svg {
-        width: var(--conatiner-width-sm);
+        width: var(--container-width-sm);
     }
     
     .container{
@@ -466,12 +466,12 @@ svg:hover #dark1{
 /* ============= MEDIA QUERIES (PHONES) ============== */
 @media screen and (max-width: 600px) {
     svg {
-        width: var(--conatiner-width-sm);
+        width: var(--container-width-sm);
         margin-top: -5rem;
     }
     
     .container{
-        width: var(--conatiner-width-sm)
+        width: var(--container-width-sm)
     }
 
     .footer__container{
